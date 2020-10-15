@@ -1,6 +1,6 @@
 using System;
 
-namespace LordLyngLib.Extensions
+namespace LordLyngLib.Core.Extensions
 {
     public static class StringExtensions
     {

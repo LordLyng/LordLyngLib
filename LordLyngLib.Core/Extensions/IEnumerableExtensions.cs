@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LordLyngLib.Extensions
+namespace LordLyngLib.Core.Extensions
 {
     public static class IEnumerableExtensions
     {

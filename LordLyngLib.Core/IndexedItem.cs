@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LordLyngLib
+namespace LordLyngLib.Core
 {
     public struct IndexedItem<T>
     {
