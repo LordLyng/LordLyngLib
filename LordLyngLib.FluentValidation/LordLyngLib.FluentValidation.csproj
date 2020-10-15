@@ -12,4 +12,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <!--Nuget related properties-->
+  <PropertyGroup>
+    <PackageId>LordLyngLib.FluentValidation</PackageId>
+    <Authors>LordLyng</Authors>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/LordLyng/LordLyngLib</RepositoryUrl>
+    <RepositoryBranch>main</RepositoryBranch>
+    <Title>LordLyngLib.FluentValidation</Title>
+    <Description>Extension methods useful when using FluentValidation</Description>
+    <PackageTags>Extensions</PackageTags>
+    <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+  </PropertyGroup>
+
 </Project>

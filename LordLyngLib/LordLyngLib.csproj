@@ -9,4 +9,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <!--Nuget related properties-->
+  <PropertyGroup>
+    <PackageId>LordLyngLib</PackageId>
+    <Authors>LordLyng</Authors>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/LordLyng/LordLyngLib</RepositoryUrl>
+    <RepositoryBranch>main</RepositoryBranch>
+    <Title>LordLyngLib</Title>
+    <Description>Utility package containing useful functions often used in C# development</Description>
+    <PackageTags>Extensions</PackageTags>
+    <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+  </PropertyGroup>
+
 </Project>
