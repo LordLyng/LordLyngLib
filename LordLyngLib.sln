@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib", "LordLyngLib\LordLyngLib.csproj", "{D49B924F-C3D4-40AA-9DC8-F0490948BCFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib", "src\LordLyngLib\LordLyngLib.csproj", "{D49B924F-C3D4-40AA-9DC8-F0490948BCFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib.Core", "LordLyngLib.Core\LordLyngLib.Core.csproj", "{6FD81384-EB16-4E06-B66F-FBB5BF7C94B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib.Core", "src\LordLyngLib.Core\LordLyngLib.Core.csproj", "{6FD81384-EB16-4E06-B66F-FBB5BF7C94B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib.FluentValidation", "LordLyngLib.FluentValidation\LordLyngLib.FluentValidation.csproj", "{41EE7DBC-77C9-4B44-980B-B2E1D9D27F74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordLyngLib.FluentValidation", "src\LordLyngLib.FluentValidation\LordLyngLib.FluentValidation.csproj", "{41EE7DBC-77C9-4B44-980B-B2E1D9D27F74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
