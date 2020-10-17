@@ -23,6 +23,7 @@
     <Description>Extension methods useful when using FluentValidation</Description>
     <PackageTags>Extensions</PackageTags>
     <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
 </Project>

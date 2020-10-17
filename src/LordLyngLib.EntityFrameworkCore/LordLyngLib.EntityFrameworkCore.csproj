@@ -15,6 +15,7 @@
     <Description>Extension methods useful when using EntityFrameworkCore</Description>
     <PackageTags>Extensions</PackageTags>
     <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-rc.2.20475.6" />
