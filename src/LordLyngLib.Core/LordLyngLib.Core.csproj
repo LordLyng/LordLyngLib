@@ -15,6 +15,7 @@
     <Description>Core functionality of the LordLyngLib extension package</Description>
     <PackageTags>Extensions</PackageTags>
     <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
 </Project>
