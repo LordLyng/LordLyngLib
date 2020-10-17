@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace LordLyngLib.Core
 {
     public struct IndexedItem<T>
@@ -7,6 +5,6 @@ namespace LordLyngLib.Core
         public T Value { get; set; }
         public int Index { get; set; }
 
-        public void Deconstruct(out int index, out T value) => (index, value) = (Index, Value);
+        public void Deconstruct (out int index, out T value) => (index, value) = (Index, Value);
     }
 }
