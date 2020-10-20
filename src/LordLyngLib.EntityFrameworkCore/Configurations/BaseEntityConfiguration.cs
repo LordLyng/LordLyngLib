@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace LordLyngLib.EntityFrameworkCore.Configurations
 {
-    public class EntityConfiguration<TKey> : IEntityTypeConfiguration<Entity<TKey>>
+    public class BaseEntityConfiguration<TKey> : IEntityTypeConfiguration<BaseEntity<TKey>>
         where TKey : IEquatable<TKey>
         {
-            public void Configure (EntityTypeBuilder<Entity<TKey>> builder)
+            public void Configure (EntityTypeBuilder<BaseEntity<TKey>> builder)
             {
                 builder.HasKey (entity => entity.Id);
             }

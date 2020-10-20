@@ -2,7 +2,7 @@ using System;
 
 namespace LordLyngLib.EntityFrameworkCore.Models
 {
-    public abstract class TimeTrackedEntity<TKey> : Entity<TKey> where TKey : IEquatable<TKey>
+    public abstract class TimeTrackedBaseEntity<TKey> : BaseEntity<TKey> where TKey : IEquatable<TKey>
     {
         /// <summary>
         /// Creation time as Unix Timestamp in milliseconds

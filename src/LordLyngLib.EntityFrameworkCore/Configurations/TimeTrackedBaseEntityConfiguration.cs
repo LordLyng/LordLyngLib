@@ -8,12 +8,12 @@ using Microsoft.EntityFrameworkCore.ValueGeneration;
 
 namespace LordLyngLib.EntityFrameworkCore.Configurations
 {
-    public class TimeTrackedEntityConfiguration<TKey> : IEntityTypeConfiguration<TimeTrackedEntity<TKey>>
+    public class TimeTrackedBaseEntityConfiguration<TKey> : IEntityTypeConfiguration<TimeTrackedBaseEntity<TKey>>
         where TKey : IEquatable<TKey>
         {
-            public void Configure (EntityTypeBuilder<TimeTrackedEntity<TKey>> builder)
+            public void Configure (EntityTypeBuilder<TimeTrackedBaseEntity<TKey>> builder)
             {
-                builder.HasBaseType<Entity<TKey>> ();
+                builder.HasBaseType<BaseEntity<TKey>> ();
                 builder.Property (entity => entity.CreatedAt)
                     .ValueGeneratedOnAdd ()
                     .HasValueGenerator<UtcNowGenerator> ();
