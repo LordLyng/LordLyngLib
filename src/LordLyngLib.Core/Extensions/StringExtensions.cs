@@ -4,24 +4,24 @@ namespace LordLyngLib.Core.Extensions
 {
     public static class StringExtensions
     {
-        public static bool IsNullOrEmpty (this string str)
+        public static bool IsNullOrEmpty(this string str)
         {
-            return str.IsNullOrEmpty ();
+            return string.IsNullOrEmpty(str);
         }
 
-        public static bool NotNullOrEmpty (this string str)
+        public static bool NotNullOrEmpty(this string str)
         {
-            return !str.IsNullOrEmpty ();
+            return !string.IsNullOrEmpty(str);
         }
 
-        public static bool IsNullOrWhitespace (this string str)
+        public static bool IsNullOrWhiteSpace(this string str)
         {
-            return str.IsNullOrWhitespace ();
+            return string.IsNullOrWhiteSpace(str);
         }
 
-        public static bool NotNullOrWhitespace (this string str)
+        public static bool NotNullOrWhiteSpace (this string str)
         {
-            return !str.IsNullOrWhitespace ();
+            return !string.IsNullOrWhiteSpace(str);
         }
 
         public static bool IsValidGuid (this string str)
